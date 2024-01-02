@@ -1,0 +1,27 @@
+.shortNews {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.title {
+    padding: 10px;
+}
+
+.newsCardFooter {
+    display: flex;
+    width: 100%;
+}
+
+.likes, .dislikes, .visitCount {
+    flex: 1;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
