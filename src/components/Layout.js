@@ -22,9 +22,9 @@ export default function Layout(props){
 
           <Nav className="me-auto">
 
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Products">Features</Nav.Link>
-            <Nav.Link href="/Todo-app">Pricing</Nav.Link>
+            <Nav.Link href="/">List</Nav.Link>
+            <Nav.Link href="/Products">Products</Nav.Link>
+            <Nav.Link href="/Todo-app">Todo_App</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

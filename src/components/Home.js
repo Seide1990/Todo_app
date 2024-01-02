@@ -15,7 +15,7 @@ const x=fetch('https://jsonplaceholder.typicode.com/todos')
 x.then(function (cavab){cavab.text().then(function (netice){
 
     var obj=JSON.parse(netice);
-    for (let i = 0; i < obj.length; i++){
+    for (let i = 0; i < 20; i++){
         array.push(obj[i].id +".  title :   "+ obj[i].title)
    }
    
