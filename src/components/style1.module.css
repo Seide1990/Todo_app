@@ -21,11 +21,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
     flex-wrap: wrap;
 }
 .box_product{
-    width: 30%;
+    width: 20%;
     border: 1px solid red;
     border-radius: 10px;
     display: flex;
@@ -42,4 +42,10 @@ body{
 }
 table, th, td {
     border:1px solid black;
+  }
+  @media (max-width:576px){
+    .box_product{
+        width: 90%;
+    }
+    
   }
